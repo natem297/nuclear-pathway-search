@@ -5,9 +5,9 @@ downloaded ENDF-6 sublibraries (e.g. proton and alpha sublibraries from
 ENDF/B-VIII.0 or TENDL-2023).
 
 Usage examples:
-    python charged_particle_reactions.py Fe56 --lib protons.zip alphas.zip
-    python charged_particle_reactions.py U235 --lib C:\\data\\TENDL\\proton C:\\data\\TENDL\\alpha
-    python charged_particle_reactions.py Al27 --lib p.zip a.zip --no-levels --csv al27.csv
+    python rxns.py Fe56 --lib protons.zip alphas.zip
+    python rxns.py U235 --lib C:\\data\\TENDL\\proton C:\\data\\TENDL\\alpha
+    python rxns.py Al27 --lib p.zip a.zip --no-levels --csv al27.csv
 
 --lib accepts any number of zip files or folders (searched recursively).
 The projectile of each file (proton, alpha, neutron, ...) is detected from the
